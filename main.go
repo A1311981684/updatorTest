@@ -10,6 +10,12 @@ import (
 
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
+
+	update.SetUpdateConfig(&update.UpdaterConfig{
+		CurrentProjectName:"TestUpdate",
+		RestartManagerPath:"C:\\Users\\MetalFish\\go\\src\\TestUpdate\\RestartManager.exe",
+	})
+
 	var input string
 	for scanner.Scan() {
 		input = scanner.Text()
