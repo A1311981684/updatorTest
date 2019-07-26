@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90427d97-fc3c-48e7-9544-ce07477559de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="90427d97-fc3c-48e7-9544-ce07477559de" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/models2.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="78">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
@@ -33,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/A.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="130">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
@@ -77,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="F:/golang" />
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,11 +92,11 @@
         <option value="$PROJECT_DIR$/views/v2.html" />
         <option value="$PROJECT_DIR$/AAAAAAA" />
         <option value="$PROJECT_DIR$/main.go" />
-        <option value="F:/VirtualBox/Ubuntu/GoPath/src/updator/generate/tar.go" />
+        <option value="$PROJECT_DIR$/../updator/generate/tar.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -119,7 +117,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="F:/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -137,9 +135,9 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25877494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12992546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -185,10 +183,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/VirtualBox/Ubuntu/GoPath/src/updator/update/do.go" />
-    <entry file="file://F:/VirtualBox/Ubuntu/GoPath/src/updator/untar/untar.go" />
+    <entry file="file://$PROJECT_DIR$/../updator/update/do.go" />
+    <entry file="file://$PROJECT_DIR$/../updator/untar/untar.go" />
     <entry file="file://$PROJECT_DIR$/AAAAAAA" />
-    <entry file="file://F:/VirtualBox/Ubuntu/GoPath/src/updator/generate/tar.go" />
+    <entry file="file://$PROJECT_DIR$/../updator/generate/tar.go" />
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -198,14 +196,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/models2.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="78">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/A.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="130">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
