@@ -25,7 +25,7 @@ func main() {
 			outputFile, err := os.Create(".\\app.update")
 			if err != nil {
 				log.Println(err.Error())
-				continue
+				continue//contiune
 			}
 			err = generate.CreateUpdate(content, outputFile)
 			if err != nil {
