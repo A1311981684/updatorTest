@@ -12,7 +12,7 @@ func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 
 	update.SetUpdateConfig(&update.UpdaterConfig{
-		CurrentProjectName:"TestUpdate",
+		CurrentProjectName:"updatorTest",
 		RestartManagerPath:"C:\\Users\\MetalFish\\go\\src\\TestUpdate\\RestartManager.exe",
 	})
 
@@ -23,9 +23,10 @@ func main() {
 		case "pack":
 			var content generate.UpdateContent
 
-			content.Name = "."
+			content.Name = "updatorTest"
 			content.Version = generate.VersionControl{From:[]string{"1.1", "1.2"}, To:"1.5", UpdateLog:[]string{"Nothing1", "Nothing2"}}
-			content.Paths = []string{".\\AAAAAAA"}
+			content.Paths = []string{"F:\\Gopath\\src\\updatorTest\\AAAAAAA",
+				"F:\\Gopath\\src\\updatorTest\\date"}
 			content.Scripts = []string{}
 			//Create
 			outputFile, err := os.Create(".\\app.update")
