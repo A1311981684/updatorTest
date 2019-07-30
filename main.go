@@ -13,7 +13,7 @@ func main() {
 
 	update.SetUpdateConfig(&update.UpdaterConfig{
 		CurrentProjectName:"updatorTest",
-		RestartManagerPath:"C:\\Users\\MetalFish\\go\\src\\TestUpdate\\RestartManager.exe",
+		RestartManagerPath:`F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\RestartManager.exe`,
 	})
 
 	var input string
@@ -55,6 +55,12 @@ func main() {
 				log.Println(err.Error())
 			}
 			err = updateFile.Close()
+			if err != nil {
+				panic(err)
+			}
+
+		case "restart":
+			err := update.Restart()
 			if err != nil {
 				panic(err)
 			}
