@@ -4,11 +4,29 @@ import (
 	"bufio"
 	"log"
 	"os"
+	"strings"
+	files2 "updator/files"
 	"updator/generate"
+	"updator/rollback"
 	"updator/update"
 )
 
 func main() {
+
+	files, err := files2.GetAllFileNamesUnder("./")
+	if err!=nil {
+		panic(err)
+	}
+	for _, v :=range files {
+		if strings.Contains(v, "date_") {
+			err = os.Remove("./" + v)
+			if err != nil {
+				panic(err)
+			}
+			break
+		}
+	}
+
 	scanner := bufio.NewScanner(os.Stdin)
 
 	update.SetUpdateConfig(&update.UpdaterConfig{
@@ -25,8 +43,8 @@ func main() {
 
 			content.Name = "updatorTest"
 			content.Version = generate.VersionControl{From:[]string{"1.1", "1.2"}, To:"1.5", UpdateLog:[]string{"Nothing1", "Nothing2"}}
-			content.Paths = []string{"F:\\Gopath\\src\\updatorTest\\AAAAAAA",
-				"F:\\Gopath\\src\\updatorTest\\date"}
+			content.Paths = []string{"F:\\VirtualBox\\Ubuntu\\GoPath\\src\\updatorTest\\AAAAAAA",
+				"F:\\VirtualBox\\Ubuntu\\GoPath\\src\\updatorTest\\date"}
 			content.Scripts = []string{}
 			//Create
 			outputFile, err := os.Create(".\\app.update")
@@ -64,6 +82,13 @@ func main() {
 			if err != nil {
 				panic(err)
 			}
+
+		case "rollback":
+			err = rollback.PerformRollback(update.GetUpdateConfig().RestartManagerPath, "./BACKUPS", "updatorTest")
+			if err != nil {
+				panic(err)
+			}
+			log.Println("DONE.")
 		default:
 
 		}
