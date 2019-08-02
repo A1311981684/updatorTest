@@ -1,1 +1,1 @@
-del d /q
+del ..\..\d /q
