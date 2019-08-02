@@ -4,3 +4,7 @@ log:2019/07/31 17:08:24 whoAmI = RestartManager.exe
 log:2019/07/31 17:08:24 os.Arg: [F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\RestartManager.exe ./BACKUPS F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\updatorTest.exe updatorTest]
 log:2019/07/31 17:08:27 Roll back ok
 log:2019/07/31 17:08:27 Restart OK.
+log:2019/07/31 17:59:00 whoAmI = RestartManager.exe
+log:2019/07/31 17:59:00 os.Arg: [F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\RestartManager.exe ./BACKUPS F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\updatorTest.exe updatorTest]
+log:2019/07/31 17:59:03 Roll back ok
+log:2019/07/31 17:59:03 Restart OK.
