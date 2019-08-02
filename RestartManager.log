@@ -1,6 +1,14 @@
-log:2019/07/31 17:06:58 whoAmI = RestartManager.exe
-log:2019/07/31 17:06:59 NOT ENOUGH ARGUMENTS![F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\RestartManager.exe ./BACKUPS F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\updatorTest.exe updatorTest]
-log:2019/07/31 17:08:24 whoAmI = RestartManager.exe
-log:2019/07/31 17:08:24 os.Arg: [F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\RestartManager.exe ./BACKUPS F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\updatorTest.exe updatorTest]
-log:2019/07/31 17:08:27 Roll back ok
-log:2019/07/31 17:08:27 Restart OK.
+log:2019/08/01 09:59:07 whoAmI = RestartManager.exe
+log:2019/08/01 09:59:10 F:\Gopath\src\updatorTest\updatorTest.exe 233333
+log:2019/08/01 09:59:10 Restart OK.
+log:2019/08/01 09:59:56 whoAmI = RestartManager.exe
+log:2019/08/01 09:59:56 NOT ENOUGH ARGUMENTS![F:\GoPath\src\updatorTest\RestartManager.exe ./BACKUPS updatorTest]
+log:2019/08/01 13:39:02 whoAmI = RestartManager.exe
+log:2019/08/01 13:39:05 F:\Gopath\src\updatorTest\updatorTest.exe 233333
+log:2019/08/01 13:39:05 Restart OK.
+log:2019/08/01 13:45:01 whoAmI = RestartManager.exe
+log:2019/08/01 13:45:04 F:\Gopath\src\updatorTest\updatorTest.exe 233333
+log:2019/08/01 13:45:04 Restart OK.
+log:2019/08/01 13:51:00 whoAmI = RestartManager.exe
+log:2019/08/01 13:51:03 F:\Gopath\src\updatorTest\updatorTest.exe 233333
+log:2019/08/01 13:51:03 Restart OK.

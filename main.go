@@ -31,7 +31,7 @@ func main() {
 
 	update.SetUpdateConfig(&update.UpdaterConfig{
 		CurrentProjectName:"updatorTest",
-		RestartManagerPath:`F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\RestartManager.exe`,
+		RestartManagerPath:`F:\GoPath\src\updatorTest\RestartManager.exe`,
 	})
 
 	var input string
@@ -43,9 +43,10 @@ func main() {
 
 			content.Name = "updatorTest"
 			content.Version = generate.VersionControl{From:[]string{"1.1", "1.2"}, To:"1.5", UpdateLog:[]string{"Nothing1", "Nothing2"}}
-			content.Paths = []string{"F:\\VirtualBox\\Ubuntu\\GoPath\\src\\updatorTest\\AAAAAAA",
-				"F:\\VirtualBox\\Ubuntu\\GoPath\\src\\updatorTest\\date"}
-			content.Scripts = []string{}
+			content.Paths = []string{"F:\\GoPath\\src\\updatorTest\\AAAAAAA",
+				"F:\\GoPath\\src\\updatorTest\\date"}
+			content.Scripts = []string{`F:\Gopath\src\updatorTest\print.bat`,
+				"F:\\Gopath\\src\\updatorTest\\hello.bat"}
 			//Create
 			outputFile, err := os.Create(".\\app.update")
 			if err != nil {
