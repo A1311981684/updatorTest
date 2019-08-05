@@ -2,3 +2,19 @@ log:2019/08/02 15:08:27 whoAmI = RestartManager.exe
 log:2019/08/02 15:08:27 os.Arg: [F:\\VirtualBox\\Ubuntu\\GoPath\src\updatorTest\RestartManager.exe ./BACKUPS F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\updatorTest.exe updatorTest]
 log:2019/08/02 15:08:30 Roll back ok
 log:2019/08/02 15:08:30 Restart OK.
+log:2019/08/05 16:35:16 whoAmI = RestartManager
+log:2019/08/05 16:35:16 os.Arg: [/mnt/hgfs/GoPath/src/updatorTest/RestartManager ./BACKUPS ./updatorTest updatorTest]
+log:2019/08/05 16:35:20 Roll back ok
+log:2019/08/05 16:35:20 Restart OK.
+log:2019/08/05 16:36:12 whoAmI = RestartManager
+log:2019/08/05 16:36:12 os.Arg: [/mnt/hgfs/GoPath/src/updatorTest/RestartManager ./BACKUPS ./updatorTest updatorTest]
+log:2019/08/05 16:36:15 Roll back ok
+log:2019/08/05 16:36:16 Restart OK.
+log:2019/08/05 16:44:58 whoAmI = RestartManager
+log:2019/08/05 16:44:58 os.Arg: [/mnt/hgfs/GoPath/src/updatorTest/RestartManager ./BACKUPS ./updatorTest updatorTest]
+log:2019/08/05 16:45:01 Roll back ok
+log:2019/08/05 16:45:02 Restart OK.
+log:2019/08/05 17:33:21 whoAmI = RestartManager
+log:2019/08/05 17:33:21 os.Arg: [/mnt/hgfs/GoPath/src/updatorTest/RestartManager ./BACKUPS ./updatorTest updatorTest]
+log:2019/08/05 17:33:24 Roll back ok
+log:2019/08/05 17:33:25 Restart OK.

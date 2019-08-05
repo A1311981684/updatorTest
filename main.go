@@ -46,13 +46,10 @@ func main() {
 			content.Paths = []string{"F:\\VirtualBox\\Ubuntu\\GoPath\\src\\updatorTest\\AAAAAAA",
 				"F:\\VirtualBox\\Ubuntu\\GoPath\\src\\updatorTest\\date"}
 			content.Scripts = []string{
-				"F:\\VirtualBox\\Ubuntu\\GoPath\\src\\updatorTest\\pre_1.bat",
-				`F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\pre_2.bat`,
-				`F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\post_1.bat`,
-				`F:\VirtualBox\Ubuntu\GoPath\src\updatorTest\post_2.bat`,
+
 			}
 			//Create
-			outputFile, err := os.Create(".\\app.update")
+			outputFile, err := os.Create("app.update")
 			if err != nil {
 				log.Println(err.Error())
 				continue//contiune
