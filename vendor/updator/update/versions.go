@@ -9,7 +9,7 @@ type VersionControl struct {
 	From []string
 	To   string
 }
-C:\Users\MetalFish\Desktop\signal.csv
+
 var _versionController VersionControl
 
 func checkVersion(currentVersion string) error {
