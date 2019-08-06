@@ -1,0 +1,61 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "GzXnaa9zoeRoPDmZJ1lD26ZdN0Q=",
+			"path": "github.com/pkg/errors",
+			"revision": "27936f6d90f9c8e1145f11ed52ffffbfdb9e0af7",
+			"revisionTime": "2019-02-27T00:00:51Z"
+		},
+		{
+			"checksumSHA1": "+j7/8tVrASS35HNTHqCLVA4zDwU=",
+			"path": "updator/files",
+			"revision": "2c1715207a0ac7f95abeff7043a9b1aadc4b5c2c",
+			"revisionTime": "2019-08-05T09:36:06Z"
+		},
+		{
+			"checksumSHA1": "KpsCdaR8Bh7BppKJlmQR2eqxjXg=",
+			"path": "updator/generate",
+			"revision": "2c1715207a0ac7f95abeff7043a9b1aadc4b5c2c",
+			"revisionTime": "2019-08-05T09:36:06Z"
+		},
+		{
+			"checksumSHA1": "ReuVm8oFasi9PCI4FXymqvt2eJg=",
+			"path": "updator/go-update",
+			"revision": "2c1715207a0ac7f95abeff7043a9b1aadc4b5c2c",
+			"revisionTime": "2019-08-05T09:36:06Z"
+		},
+		{
+			"checksumSHA1": "KnsWubGg6myCbjm8gnw+QCH6gDI=",
+			"path": "updator/go-update/internal/binarydist",
+			"revision": "2c1715207a0ac7f95abeff7043a9b1aadc4b5c2c",
+			"revisionTime": "2019-08-05T09:36:06Z"
+		},
+		{
+			"checksumSHA1": "x3xLukQD+0PHDk6knBqhyIzciu0=",
+			"path": "updator/go-update/internal/osext",
+			"revision": "2c1715207a0ac7f95abeff7043a9b1aadc4b5c2c",
+			"revisionTime": "2019-08-05T09:36:06Z"
+		},
+		{
+			"checksumSHA1": "77bYqaX5GNKja0K3qrlpDBN/YP0=",
+			"path": "updator/rollback",
+			"revision": "2c1715207a0ac7f95abeff7043a9b1aadc4b5c2c",
+			"revisionTime": "2019-08-05T09:36:06Z"
+		},
+		{
+			"checksumSHA1": "7p5cgD4KIVAwXCRfjIBtN7VfjQM=",
+			"path": "updator/untar",
+			"revision": "2c1715207a0ac7f95abeff7043a9b1aadc4b5c2c",
+			"revisionTime": "2019-08-05T09:36:06Z"
+		},
+		{
+			"checksumSHA1": "kTozln6M0XsNY4ezwfTC3ojvlBg=",
+			"path": "updator/update",
+			"revision": "2c1715207a0ac7f95abeff7043a9b1aadc4b5c2c",
+			"revisionTime": "2019-08-05T09:36:06Z"
+		}
+	],
+	"rootPath": "updatorTest"
+}

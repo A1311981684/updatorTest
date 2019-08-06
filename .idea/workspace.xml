@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90427d97-fc3c-48e7-9544-ce07477559de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RestartManager" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post_1.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post_2.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pre_1.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pre_2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vendor.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AAAAAAA" beforeDir="false" afterPath="$PROJECT_DIR$/AAAAAAA" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestartManager.log" beforeDir="false" afterPath="$PROJECT_DIR$/RestartManager.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/VERIFICATION" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/VERIFICATION" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/updatorTest/AAAAAAA" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/updatorTest/AAAAAAA" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/updatorTest/date/post_1.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.update" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dat/date1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/date/post_1.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/date_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/date_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post_1.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post_2.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre_1.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre_2.bat" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +19,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../../../GO" />
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
